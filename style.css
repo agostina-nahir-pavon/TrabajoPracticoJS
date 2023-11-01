@@ -1,0 +1,124 @@
+header {
+    background-color: #454545;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+.perfilesGlobales {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.textoTitulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row!important;
+    color: #FFFFFF;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.perfilesGlobales-bloqueEnlaces {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 1rem;
+    border: 1rem;
+}
+.perfilesGlobales-enlace {
+    color: #00FF00;
+    margin: 1rem;
+}
+footer {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #227093;
+}
+.contenedorFooter {
+    list-style: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+li {
+    padding: 1rem;
+}
+.boxPadre{
+    box-sizing: border-box;
+    padding-top: 3rem!important;
+    flex-direction: column!important;
+    display: flex!important;
+}
+.cajaInfo{
+    gap: 1rem;
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+.infoTicket{
+    display: flex;
+    text-align: center!important;
+    gap: 0.5rem!important;
+    padding: 1.5rem!important;
+    flex-direction: column!important;
+    --bs-border-opacity: 1;
+    border-color: rgba(var(--bs-primary-rgb),var(--bs-border-opacity));
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+}
+.porcentaje{
+    font-size: 1.25rem;
+}
+.boxAzul{
+    border-color: #0000ff
+}
+.boxOro{
+    border-color: #Efb810
+}
+h2{
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+.fw-normal{
+    font-weight: 400!important;
+}
+.row{
+    padding-left: 15rem;
+    padding-right: 15rem;
+    margin-top: var(--bs-gutter-y);
+}
+.btn-primary{
+    border-color: #95bb59;
+    background-color: #95bb59;
+}
+form{
+    padding-bottom: 3rem!important;
+}
+.form_setion{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
